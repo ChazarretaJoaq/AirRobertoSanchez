@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0BCBF4F02A4F545D00931282 /* RobertoSanchezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF4EF2A4F545D00931282 /* RobertoSanchezApp.swift */; };
-		0BCBF4F22A4F545D00931282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF4F12A4F545D00931282 /* ContentView.swift */; };
+		0BCBF4F22A4F545D00931282 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF4F12A4F545D00931282 /* PostView.swift */; };
 		0BCBF4F42A4F545F00931282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCBF4F32A4F545F00931282 /* Assets.xcassets */; };
 		0BCBF4F82A4F545F00931282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCBF4F72A4F545F00931282 /* Preview Assets.xcassets */; };
 		0BCBF5022A4F545F00931282 /* RobertoSanchezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF5012A4F545F00931282 /* RobertoSanchezTests.swift */; };
 		0BCBF50C2A4F545F00931282 /* RobertoSanchezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF50B2A4F545F00931282 /* RobertoSanchezUITests.swift */; };
 		0BCBF50E2A4F545F00931282 /* RobertoSanchezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF50D2A4F545F00931282 /* RobertoSanchezUITestsLaunchTests.swift */; };
+		0BCBF51B2A4F549800931282 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF51A2A4F549800931282 /* Post.swift */; };
+		0BCBF51D2A4F5D8000931282 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF51C2A4F5D8000931282 /* PostListView.swift */; };
+		0BCBF51F2A4F68FC00931282 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCBF51E2A4F68FC00931282 /* Transitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0BCBF4EC2A4F545D00931282 /* RobertoSanchez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobertoSanchez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCBF4EF2A4F545D00931282 /* RobertoSanchezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobertoSanchezApp.swift; sourceTree = "<group>"; };
-		0BCBF4F12A4F545D00931282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BCBF4F12A4F545D00931282 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		0BCBF4F32A4F545F00931282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BCBF4F52A4F545F00931282 /* RobertoSanchez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RobertoSanchez.entitlements; sourceTree = "<group>"; };
 		0BCBF4F72A4F545F00931282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		0BCBF5072A4F545F00931282 /* RobertoSanchezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobertoSanchezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCBF50B2A4F545F00931282 /* RobertoSanchezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobertoSanchezUITests.swift; sourceTree = "<group>"; };
 		0BCBF50D2A4F545F00931282 /* RobertoSanchezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobertoSanchezUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BCBF51A2A4F549800931282 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0BCBF51C2A4F5D8000931282 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		0BCBF51E2A4F68FC00931282 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				0BCBF4EF2A4F545D00931282 /* RobertoSanchezApp.swift */,
-				0BCBF4F12A4F545D00931282 /* ContentView.swift */,
+				0BCBF51C2A4F5D8000931282 /* PostListView.swift */,
+				0BCBF4F12A4F545D00931282 /* PostView.swift */,
+				0BCBF51E2A4F68FC00931282 /* Transitions.swift */,
+				0BCBF51A2A4F549800931282 /* Post.swift */,
 				0BCBF4F32A4F545F00931282 /* Assets.xcassets */,
 				0BCBF4F52A4F545F00931282 /* RobertoSanchez.entitlements */,
 				0BCBF4F62A4F545F00931282 /* Preview Content */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCBF4F22A4F545D00931282 /* ContentView.swift in Sources */,
+				0BCBF51B2A4F549800931282 /* Post.swift in Sources */,
+				0BCBF51F2A4F68FC00931282 /* Transitions.swift in Sources */,
+				0BCBF4F22A4F545D00931282 /* PostView.swift in Sources */,
+				0BCBF51D2A4F5D8000931282 /* PostListView.swift in Sources */,
 				0BCBF4F02A4F545D00931282 /* RobertoSanchezApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RobertoSanchez/RobertoSanchez.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RobertoSanchez/Preview Content\"";
@@ -436,6 +450,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoaquinChazarreta.RobertoSanchez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -450,6 +465,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RobertoSanchez/RobertoSanchez.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RobertoSanchez/Preview Content\"";
@@ -474,6 +491,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoaquinChazarreta.RobertoSanchez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;

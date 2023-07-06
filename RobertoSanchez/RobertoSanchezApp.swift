@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct RobertoSanchezApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+//    var posts: [Post] = [
+//            Post(tag: "AirSanchez1", title: "AirSanchez1", description: "AirSanchez1", thumbnailName: "AirSanchez1")
+//        ]
+//
+        var body: some Scene {
+            WindowGroup {
+                PostListView()
+            }
         }
-    }
 }
