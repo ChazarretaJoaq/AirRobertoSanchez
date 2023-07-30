@@ -28,6 +28,19 @@ extension AnyTransition{
         func body(content: Content) -> some View {
             content
                 .opacity(1)
+                .offset(y: CGFloat(porcentage) * (UIScreen.main.bounds.height - navigationBarHeight()))
+        }
+        
+        func navigationBarHeight() -> CGFloat {
+            guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+                return 0
+            }
+            
+            let window = UIWindow(windowScene: windowScene)
+            let viewController = UIViewController()
+            let navigationController = UINavigationController(rootViewController: viewController)
+            
+            return navigationController.navigationBar.frame.height
         }
     }
 }

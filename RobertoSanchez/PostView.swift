@@ -16,7 +16,7 @@ struct PostView: View {
     var body: some View {
         HStack{
             VStack(alignment: .leading, spacing: 10){
-                Spacer().frame(height: 30)
+                Spacer().frame(height: 15)
                 Text(posts.tag)
                     .font(.callout)
                     .fontWeight(.medium)
@@ -35,7 +35,7 @@ struct PostView: View {
         }
         
         .padding()
-        .foregroundColor(.black)
+        .foregroundColor(.white)
         .background(
             Image(posts.thumbnailName)
                 .resizable()
